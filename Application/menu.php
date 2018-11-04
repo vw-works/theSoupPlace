@@ -1,7 +1,7 @@
 <?php
 
 /* Vila Wong
- * The home page for site
+ * The menu page of site
 */
 
 #set page title and include header file:
@@ -9,7 +9,7 @@ define('TITLE', 'The Soup Place - Menu');
 include('includes/header.php');
 ?>
 
-<!-- Main jumbotron for daily soup special -->
+<!-- Menu jumbotron -->
 <div class="jumbotron menu-jumbotron mb-0 pb-4">
     <div class="container p-0">
         <div class="row mx-0">

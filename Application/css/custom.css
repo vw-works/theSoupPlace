@@ -14,6 +14,10 @@
     background-image: url(https://via.placeholder.com/1500/e6f3ff);
 }
 
+.loc-jumbotron {
+    background-image: url(https://via.placeholder.com/1500/ccccff);
+}
+
 .navbar-nav .nav-item a:hover, .navbar-nav .nav-item a:active  {
     color: #fff;
 }
