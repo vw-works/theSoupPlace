@@ -3,7 +3,8 @@
       <footer>
         <div class="container py-5">
           <div class="row justify-content-between">
-            <!-- SITE MAP SECTION -->
+            <!-- CONTACT INFORMATION -->
+            
             <div class="col-md-3">
               <span>
                   (011) 4964-2888</br>
@@ -12,10 +13,11 @@
                   Argentina</br>
               </span>
             </div>
-            <!-- CONTACT INFORMATION -->
-            <div class="col-md-3">
+
+            <!-- SITE MAP SECTION -->
+            <div class="col-md-3 mt-3 mt-md-0">
               <ul>
-                  <li><a href="index.html#procedure">Procedure &amp; Rules</a></li>
+                  <li><a href="index.php#procedure">Procedure &amp; Rules</a></li>
                   <li><a href="#">Menu</a></li>
                   <li><a href="#">Hours &amp; Location</a></li>
               </ul>
@@ -52,7 +54,5 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-      <script src="js/index.js"></script>
     </body>
   </html>

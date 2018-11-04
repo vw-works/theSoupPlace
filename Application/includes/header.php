@@ -39,22 +39,22 @@
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark nav-masthead">
         <div class="container">
           <h3 class="my-1">
-            <a class="masthead-brand" href="index.html">The Soup Place</a>
+            <a class="masthead-brand" href="index.php">The Soup Place</a>
           </h3>
           <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
     
-          <div class="collapse navbar-collapse" id="navbars">
-            <ul class="navbar-nav ml-auto nav-masthead">
-              <li class="nav-item active">
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto nav-masthead text-right">
+              <li class="nav-item">
                 <a class="nav-link px-0 mx-md-2" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle px-0 mx-md-2" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" href="#">All Soups</a>
+                  <a class="dropdown-item" href="menu.php">All Soups</a>
                   <a class="dropdown-item" href="#">Vegetarian Options</a>
                   <a class="dropdown-item" href="#">Extras</a>
                 </div>

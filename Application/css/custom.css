@@ -1,10 +1,31 @@
 .jumbotron {
     border-radius: 0;
-    background-image: url(https://via.placeholder.com/1500);
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
+}
+
+.home-jumbotron {
+    background-image: url(https://via.placeholder.com/1500);
+}
+
+.menu-jumbotron {
+    background-image: url(https://via.placeholder.com/1500/e6f3ff);
+}
+
+.navbar-nav .nav-item a:hover, .navbar-nav .nav-item a:active  {
+    color: #fff;
+}
+
+.page-nav {
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+.page-nav-item {
+    margin-right: 3rem;
+    margin-left: 3rem;
 }
 
 footer {
