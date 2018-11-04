@@ -28,6 +28,20 @@
     margin-left: 3rem;
 }
 
+.menu-item {
+    margin-bottom: 2rem;
+}
+
+.menu-item .menu-item-header sup {
+    font-size: 50%;
+    top: -.75em;
+}
+
+.menu-item .price {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
 footer {
     font-size: .85rem;
 }
