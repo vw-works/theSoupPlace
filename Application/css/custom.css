@@ -7,3 +7,11 @@
     background-position: right center;
 }
 
+footer {
+    font-size: .85rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
