@@ -8,9 +8,9 @@
             <div class="col-md-3">
               <span>
                   (011) 4964-2888</br>
-                  995 Nosoupforelaine Bvld</br>
-                  Recoleta Buenos Aires</br>
-                  Argentina</br>
+                  Av. Independencia 880 </br>
+                  C1099AAV CABA</br>
+                  Argentina
               </span>
             </div>
 
