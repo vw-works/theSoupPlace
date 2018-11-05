@@ -1,3 +1,7 @@
+a {
+    color: ff8e00;
+}
+
 .jumbotron {
     border-radius: 0;
     background-color: black;
@@ -45,6 +49,13 @@
     font-size: 1.25rem;
     font-weight: 500;
 }
+
+/* .map {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+} */
 
 footer {
     font-size: .85rem;
