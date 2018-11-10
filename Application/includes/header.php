@@ -28,6 +28,9 @@
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <!-- Custom fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Anton|Hind+Guntur" rel="stylesheet">  -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Work+Sans" rel="stylesheet"> 
 
   </head>
 
@@ -46,20 +49,20 @@
           <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ml-auto nav-masthead text-right">
               <li class="nav-item">
-                <a class="nav-link px-0 mx-md-2" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link px-0 mx-md-3" href="index.php">Home <span class="sr-only">(current)</span></a>
               </li>
               
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle px-0 mx-md-2" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                <a class="nav-link dropdown-toggle px-0 mx-md-3" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" href="menu.php#all">All Soups</a>
+                  <a class="dropdown-item" href="menu.php">All Soups</a>
                   <a class="dropdown-item" href="menu.php#veg">Vegetarian Options</a>
                   <a class="dropdown-item" href="menu.php#extra">Extras</a>
                 </div>
               </li>
 
               <li class="nav-item">
-                  <a class="nav-link px-0 mx-md-2" href="hours-location.php">Hours &amp; Location</a>
+                  <a class="nav-link px-0 ml-md-3" href="hours-location.php">Hours &amp; Location</a>
                 </li>
             </ul>
           

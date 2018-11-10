@@ -2,6 +2,14 @@ a {
     color: ff8e00;
 }
 
+body p, body li {
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav.navbar, nav.navbar a, nav a.nav-item {
+    font-family: 'Oswald', sans-serif;
+}
+
 .jumbotron {
     border-radius: 0;
     background-color: black;
@@ -20,6 +28,10 @@ a {
 
 .loc-jumbotron {
     background-image: url(https://via.placeholder.com/1500/ccccff);
+}
+
+.navbar-nav .nav-item {
+    font-size: 1.5rem;
 }
 
 .navbar-nav .nav-item a:hover, .navbar-nav .nav-item a:active  {
@@ -50,12 +62,6 @@ a {
     font-weight: 500;
 }
 
-/* .map {
-    position: relative;
-    padding-bottom: 75%; 
-    height: 0;
-    overflow: hidden;
-} */
 
 footer {
     font-size: .85rem;
