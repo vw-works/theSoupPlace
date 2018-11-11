@@ -230,5 +230,9 @@ footer ul {
     }
  }
 
-/* Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .jumbotron {
+        background-size: 200rem;
+    }
+ } 

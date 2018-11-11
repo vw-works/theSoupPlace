@@ -22,10 +22,10 @@ include('includes/header.php');
     </div>
 </div>
 
-<div id="procedure" class="bg-light">
-    <div class="container py-5">
+<div  class="bg-light">
+    <div class="container ">
         <div class="row">
-            <div class="col-md-6">
+            <div id="procedure" class="col-md-6 pt-5 pb-4 py-md-5 ">
             <!-- PROCEDURE SECTION -->
             <h2>Ordering Procedure</h2>
             <h5>Follow procedure, get soup.</h5>
@@ -37,7 +37,8 @@ include('includes/header.php');
                     <li>Step to the left and receive</li>
                 </ol>
             </div>
-            <div id="rules" class="col-md-6">
+
+            <div id="rules" class="col-md-6 pt-4 pb-5 py-md-5 border-top">   
             <!-- RULES SECTION -->
                 <h2>Rules</h2>
                 <h5>Don't follow rules, then NO SOUP FOR YOU!</h5>
@@ -54,11 +55,10 @@ include('includes/header.php');
     </div>
 </div>
 
-<div id="rules" class="bg-dark text-white">
+<!-- <div id="rules" class="bg-dark text-white">
     <div class="container py-5">
         <div class="row">
             <div class="col">
-            <!-- RULES SECTION -->
                 <h2>Rules</h2>
                 <h5>Don't follow rules, then NO SOUP FOR YOU!</h5>
                 <ul>
@@ -72,7 +72,7 @@ include('includes/header.php');
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <?php
     include('includes/footer.php');
