@@ -17,9 +17,9 @@
             <!-- SITE MAP SECTION -->
             <div class="col-md-3 mt-3 mt-md-0">
               <ul>
-                  <li><a href="index.php#procedure">Procedure &amp; Rules</a></li>
-                  <li><a href="#">Menu</a></li>
-                  <li><a href="#">Hours &amp; Location</a></li>
+                  <li><a href="index.php#procedure" class="text-white" >Procedure &amp; Rules</a></li>
+                  <li><a href="menu.php" class="text-white" >Menu</a></li>
+                  <li><a href="hours-location.php" class="text-white">Hours &amp; Location</a></li>
               </ul>
                 
             </div>
@@ -27,7 +27,7 @@
           <!-- Disclaimer -->
           <div class="row mt-4 copyright">
             <div class="col">
-              <span class="d-block">Any content related to the Soup Nazi is the property of the TV series, <a href="http://www.seinfeldscripts.com/TheSoupNazi.htm" target="_blank" title="Go to Seinfeld Soup Nazi transcript page">Seinfeld</a>. Please don't sue me.</span>
+              <span class="d-block">Any content related to the Soup Nazi is the property of the TV series, <a class="text-white" href="http://www.seinfeldscripts.com/TheSoupNazi.htm" target="_blank" title="Go to Seinfeld Soup Nazi transcript page">Seinfeld</a>. Please don't sue me.</span>
               <span>&copy;
                     <?php
                         $startYear = 2018;

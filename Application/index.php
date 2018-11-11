@@ -14,15 +14,15 @@ include('includes/header.php');
     <div class="overlay">
     <div class="container p-0">
         <div class="col-md-6">
-            <h1>Daily Special | Soup Special</h1>
-            <p>List of ingredients in daily soup special, ingredients</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">See Entire Menu &raquo;</a></p>
+            <h1>Daily Special | Manhattan Clam Chowder</h1>
+            <p class="text-capitalize font-weight-bold">clams, bacon, onion, celery, green pepper, carrot, potato,  tomato, herbs</p>
+            <p><a class="btn btn-primary btn-main btn-lg" href="menu.php" role="button">See Entire Menu &raquo;</a></p>
         </div>
     </div>
     </div>
 </div>
 
-<div  class="bg-light">
+<div  class="bg-white">
     <div class="container ">
         <div class="row">
             <div id="procedure" class="col-md-6 pt-5 pb-4 py-md-5 ">
