@@ -4,7 +4,7 @@
 
 /* Links */
 nav a, nav a:focus, nav a:hover {
-  color: #fff;
+  color: #080B0D;
 }
 
 /* Custom default button */
@@ -20,7 +20,7 @@ nav a, nav a:focus, nav a:hover {
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
-    padding-top: 3.5rem;
+    padding-top: 5rem;
   }
   
 
@@ -62,7 +62,7 @@ body {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: #fff!important;
+  color: #080B0D!important;
   background-color: transparent;
   letter-spacing: .1rem;
 }
@@ -70,7 +70,7 @@ body {
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   /* border-bottom: .25rem solid rgba(255, 255, 255, .25); */
-  text-decoration: underline;
+  text-decoration: underline #658B88;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -78,7 +78,7 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
+  color: #080B0D;
   border-bottom-color: #fff;
 }
 

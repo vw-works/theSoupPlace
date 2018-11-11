@@ -30,16 +30,16 @@
     <link href="css/custom.css" rel="stylesheet">
     <!-- Custom fonts -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Anton|Hind+Guntur" rel="stylesheet">  -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Work+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Work+Sans" rel="stylesheet">
 
   </head>
 
   <body>
 
       <!-- NAVIGATION -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark nav-masthead">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white nav-masthead">
         <div class="container">
-          <h3 class="my-1">
+          <h3 class="my-0 mt-2 my-md-1">
             <a class="masthead-brand mt-2" href="index.php">
               The Soup Place
             </a>
