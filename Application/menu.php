@@ -10,18 +10,20 @@ include('includes/header.php');
 ?>
 
 <!-- Menu jumbotron -->
-<div class="jumbotron menu-jumbotron mb-0 pb-4">
-    <div class="container p-0">
-        <div class="row mx-0">
-            <div class="col text-center">
-                <h1>What's On Rotation</h1>
-                <p>The Soup Artisan only works with the freshest ingredients to create his masterpieces. As a result, our soup menu will rotate frequently. </p>
+<div class="jumbotron menu-jumbotron mb-0 p-0">
+    <div class="overlay">
+        <div class="container p-0">
+            <div class="row mx-0">
+                <div class="col text-center">
+                    <h1>What's On Rotation</h1>
+                    <p class="text-white">The Soup Artisan only works with the freshest ingredients to create his masterpieces. As a result, our soup menu will rotate frequently. </p>
+                </div>
             </div>
-        </div>
-        <div class="row justify-content-center page-nav no-gutters">
-            <a class="page-nav-item" href="menu.php#all">All Soups</a>
-            <a class="page-nav-item" href="menu.php#veg">Vegetarian Options</a>
-            <a class="page-nav-item" href="menu.php#extra">Extras</a>
+            <div class="row justify-content-center page-nav no-gutters text-center px-md-5 mx-md-5">
+                <a class="page-nav-item py-2 py-md-0 col-sm-4" href="menu.php#all">All Soups</a>
+                <a class="page-nav-item py-2 py-md-0 col-sm-4" href="menu.php#veg">Vegetarian Options</a>
+                <a class="page-nav-item py-2 py-md-0 col-sm-4" href="menu.php#extra">Extras</a>
+            </div>
         </div>
     </div>
 </div>
@@ -30,16 +32,16 @@ include('includes/header.php');
     <div class="container py-5">
         <h2 class="mb-4 mb-md-5">Soups</h2>
         <div class="row">    
-            <div class="col-md-6 pr-5">
+            <div class="col-md-6 pr-md-5">
                 <div class="menu-item">
                     <div class="menu-item-header">
-                        <h3 class="d-inline-block">Soup 1 
+                        <h3 class="d-inline-block">Manhattan Clam Chowder 
                             <sup>*Daily Special</sup>
                         </h3>
                         <span class="float-right price">XX.xx</span>
                     </div>
-                    <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
-                    <p>includes bread</p>
+                    <p class="text-capitalize">clams, bacon, onion, celery, green pepper, carrot, potato, tomato, herbs</p>
+                    <p class="text-capitalize">includes bread</p>
                 </div>
                 <div class="menu-item">
                     <div class="menu-item-header">
@@ -58,7 +60,7 @@ include('includes/header.php');
                     <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
                 </div>
             </div>
-            <div class="col-md-6 pl-5">
+            <div class="col-md-6 pl-md-5">
                 <div class="menu-item">
                     <div class="menu-item-header">
                         <h3 class="d-inline-block">Soup 4 
@@ -83,7 +85,7 @@ include('includes/header.php');
     <div class="container py-5">
         <h2 class="mb-4 mb-md-5">Vegetarian Options</h2>
         <div class="row">    
-            <div class="col-md-6 pr-5">
+            <div class="col-md-6 pr-md-5">
                 <div class="menu-item">
                     <div class="menu-item-header">
                         <h3 class="d-inline-block">Soup 1 
@@ -101,7 +103,7 @@ include('includes/header.php');
                     <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
                 </div>
             </div>
-            <div class="col-md-6 pl-5">
+            <div class="col-md-6 pl-md-5">
                 <div class="menu-item">
                     <div class="menu-item-header">
                         <h3 class="d-inline-block">Soup 3 
@@ -128,7 +130,7 @@ include('includes/header.php');
                     <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
                 </div>
             </div>
-            <div class="col-md-6 pl-5">
+            <div class="col-md-6 pl-md-5">
                 <div class="menu-item">
                     <div class="menu-item-header">
                         <h3 class="d-inline-block">Bread Bowl

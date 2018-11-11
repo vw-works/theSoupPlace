@@ -126,9 +126,13 @@ nav a, nav a:focus, nav a:hover {
     font-weight: 500;
 }
 
-.overlay {
+.mobile-overlay, .overlay {
     padding: 5rem 1rem;
     background-color: rgba(0,0,0,0.5);
+}
+
+.overlay  {
+    background-color: rgba(0,0,0,0.6);
 }
 
 .jumbotron {
@@ -145,8 +149,13 @@ nav a, nav a:focus, nav a:hover {
     color: #fff;
 }
 
+.jumbotron h1, .jumbotron p{
+    text-shadow: 0px 0px 20px black;
+}
+
 .menu-jumbotron {
-    background-image: url(https://via.placeholder.com/1500/e6f3ff);
+    background-image: url(../assets/image-from-rawpixel-id-448298.jpg);
+    color: #fff;
 }
 
 .loc-jumbotron {
@@ -176,14 +185,18 @@ nav a, nav a:focus, nav a:hover {
 }
 
 .page-nav-item {
-    margin-right: 3rem;
-    margin-left: 3rem;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    letter-spacing: .1rem;
+}
+
+a.page-nav-item:hover, a.page-nav-item:active, a.page-nav-item:focus {
+    color: #fff!important;
 }
 
 .menu-item {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
-
 .menu-item .menu-item-header sup {
     font-size: 50%;
     top: -.75em;
@@ -202,6 +215,7 @@ nav a, nav a:focus, nav a:hover {
     color: #fff;
     background-color: #D98C05;
     border: none;
+    text-shadow: none;
 }
 
 .btn-main:hover, .btn-main:active, .btn-main:focus {
@@ -230,8 +244,6 @@ footer a:hover, footer a:active, footer a:focus {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-
-
     .jumbotron {
         background-size: 50rem;
     }
@@ -243,29 +255,51 @@ footer a:hover, footer a:active, footer a:focus {
     body {
         padding-top: 5rem;
     }
-    .jumbotron {
+
+    .jumbotron.home-jumbotron {
         background-size: 90rem;
     }
 
-    .overlay {
-        padding: 6rem 1rem;
+    .jumbotron.menu-jumbotron {
+        background-size: 60rem;
+    }
+
+    .mobile-overlay {
         background-color: rgba(0,0,0,0.0);
+    }
+
+    .mobile-overlay, .overlay {
+        padding: 6rem 1rem;
     }
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .jumbotron {
+    .jumbotron.home-jumbotron {
         background-size: 125rem;
     }
-    .overlay {
+
+    .jumbotron.menu-jumbotron {
+        background-size: 80rem;
+    }
+
+    .mobile-overlay, .overlay {
         padding: 8rem 1rem;
     }
  }
 
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    .jumbotron .home-jumbotron {
-        background-position: center left 200px;
+    .jumbotron.home-jumbotron {
+        background-position-x: left 200px!important;
+        background-position-y: center!important;
     }
  } 
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+    .jumbotron.home-jumbotron {
+        background-position: center left 300px;
+    }
+ } 
+
