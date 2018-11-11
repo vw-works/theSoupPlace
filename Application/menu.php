@@ -28,7 +28,7 @@ include('includes/header.php');
     </div>
 </div>
 
-<div id="all" class="bg-light">
+<div id="all" class="bg-white">
     <div class="container py-5">
         <h2 class="mb-4 mb-md-5">Soups</h2>
         <div class="row">    

@@ -212,14 +212,14 @@ a.page-nav-item:hover, a.page-nav-item:active, a.page-nav-item:focus {
 }
 
 .btn-main {
-    color: #fff;
-    background-color: #D98C05;
+    color: #000;
+    background-color: #fff;
     border: none;
     text-shadow: none;
 }
 
 .btn-main:hover, .btn-main:active, .btn-main:focus {
-    background-color: #8A1E03!important; 
+    background-color: #D98C05!important; 
     border: none!important;
 }
 
