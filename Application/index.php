@@ -10,13 +10,15 @@ include('includes/header.php');
 ?>
 
 <!-- Main jumbotron for daily soup special -->
-<div class="jumbotron home-jumbotron mb-0">
+<div class="jumbotron home-jumbotron mb-0 p-0">
+    <div class="overlay">
     <div class="container p-0">
         <div class="col-md-6">
             <h1>Daily Special | Soup Special</h1>
             <p>List of ingredients in daily soup special, ingredients</p>
             <p><a class="btn btn-primary btn-lg" href="#" role="button">See Entire Menu &raquo;</a></p>
         </div>
+    </div>
     </div>
 </div>
 

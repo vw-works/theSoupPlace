@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
+    <!-- <link href="css/cover.css" rel="stylesheet"> -->
     <link href="css/custom.css" rel="stylesheet">
     <!-- Custom fonts -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Anton|Hind+Guntur" rel="stylesheet">  -->
@@ -37,7 +37,7 @@
   <body>
 
       <!-- NAVIGATION -->
-      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white nav-masthead">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white nav-masthead shadow-sm">
         <div class="container">
           <h3 class="my-0 mt-2 my-md-1">
             <a class="masthead-brand mt-2" href="index.php">
