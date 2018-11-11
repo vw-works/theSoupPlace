@@ -40,7 +40,9 @@
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark nav-masthead">
         <div class="container">
           <h3 class="my-1">
-            <a class="masthead-brand" href="index.php">The Soup Place</a>
+            <a class="masthead-brand mt-2" href="index.php">
+              The Soup Place
+            </a>
           </h3>
           <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

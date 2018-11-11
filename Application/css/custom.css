@@ -1,3 +1,8 @@
+@font-face {
+    font-family: ss-rough;
+    src: url(../assets/fonts/ServiceStation-Rough.woff);
+}
+
 a {
     color: ff8e00;
 }
@@ -8,6 +13,10 @@ body p, body li {
 
 nav.navbar, nav.navbar a, nav a.nav-item {
     font-family: 'Oswald', sans-serif;
+}
+
+.masthead-brand {
+    font-family: ss-rough, 'Oswald', sans-serif!important;
 }
 
 .jumbotron {
