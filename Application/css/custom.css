@@ -291,15 +291,14 @@ footer a:hover, footer a:active, footer a:focus {
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .jumbotron.home-jumbotron {
-        background-position-x: left 200px!important;
-        background-position-y: center!important;
+        background-position: 200px center;
     }
  } 
 
 /* Extra extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1400px) { 
+@media (min-width: 1500px) { 
     .jumbotron.home-jumbotron {
-        background-position: center left 300px;
+        background-position: 450px center;
     }
  } 
 
