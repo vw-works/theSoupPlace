@@ -25,18 +25,30 @@ include('includes/header.php');
 <div id="procedure" class="bg-light">
     <div class="container py-5">
         <div class="row">
-            <div class="col">
+            <div class="col-md-6">
             <!-- PROCEDURE SECTION -->
             <h2>Ordering Procedure</h2>
             <h5>Follow procedure, get soup.</h5>
                 <ol>
-                    <li>Refert tamen, quo modo.</li>
-                    <li>Philosophi autem in suis lectulis plerumque moriuntur.</li>
-                    <li>Sed venio ad inconstantiae crimen, ne saepius dicas me aberrare;</li>
-                    <li>Ex rebus enim timiditas, non ex vocabulis nascitur.</li>
-                    <li>Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est.</li>
-                    <li>Audax negotium, dicerem impudens, nisi hoc institutum postea translatum ad philosophos nostros esset.</li>
+                    <li>As you walk into the shop move immediately to your right.</li>
+                    <li>Keep the line moving</li>
+                    <li>Hold out your money</li>
+                    <li>Speak your soup order in a loud, clear voice</li>
+                    <li>Step to the left and receive</li>
                 </ol>
+            </div>
+            <div id="rules" class="col-md-6">
+            <!-- RULES SECTION -->
+                <h2>Rules</h2>
+                <h5>Don't follow rules, then NO SOUP FOR YOU!</h5>
+                <ul>
+                    <li>No embellishing on your order.</li>
+                    <li>No extraneous comments.</li>
+                    <li>No questions.</li>
+                    <li>No compliments. </li>
+                    <li>No cutting in line.</li>
+                    <li>No kissing in line.</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -50,12 +62,12 @@ include('includes/header.php');
                 <h2>Rules</h2>
                 <h5>Don't follow rules, then NO SOUP FOR YOU!</h5>
                 <ul>
-                    <li>Refert tamen, quo modo.</li>
-                    <li>Philosophi autem in suis lectulis plerumque moriuntur.</li>
-                    <li>Sed venio ad inconstantiae crimen, ne saepius dicas me aberrare;</li>
-                    <li>Ex rebus enim timiditas, non ex vocabulis nascitur.</li>
-                    <li>Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est.</li>
-                    <li>Audax negotium, dicerem impudens, nisi hoc institutum postea translatum ad philosophos nostros esset.</li>
+                    <li>No embellishing on your order.</li>
+                    <li>No extraneous comments.</li>
+                    <li>No questions.</li>
+                    <li>No compliments. </li>
+                    <li>No cutting in line.</li>
+                    <li>No kissing in line.</li>
                 </ul>
             </div>
         </div>
