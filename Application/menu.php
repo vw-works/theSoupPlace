@@ -35,47 +35,46 @@ include('includes/header.php');
             <div class="col-md-6 pr-md-5">
                 <div class="menu-item">
                     <div class="menu-item-header">
-                        <h3 class="d-inline-block">Manhattan Clam Chowder 
-                            <sup>*Daily Special</sup>
+                        <h3 class="d-inline-block">Jambalaya 
                         </h3>
-                        <span class="float-right price">XX.xx</span>
+                        <span class="float-right price">13.95</span>
                     </div>
-                    <p class="text-capitalize">clams, bacon, onion, celery, green pepper, carrot, potato, tomato, herbs</p>
-                    <p class="text-capitalize">includes bread</p>
+                    <p class="text-capitalize">Andouille sausage, chicken, shrimp, okra, garlic, tomato, onion, red bell pepper, celery, rice, spices</p>
+
                 </div>
                 <div class="menu-item">
                     <div class="menu-item-header">
-                        <h3 class="d-inline-block">Soup 2 
+                        <h3 class="d-inline-block">Crab Chowder
                         </h3>
-                        <span class="float-right price">XX.xx</span>
+                        <span class="float-right price">13.95</span>
                     </div>
-                    <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
+                    <p class="text-capitalize">Crab, potatoes, milk, onion, garlic, spices</p>
                 </div>
                 <div class="menu-item">
                     <div class="menu-item-header">
-                        <h3 class="d-inline-block">Soup 3 
+                        <h3 class="d-inline-block">Crab Bisque 
                         </h3>
-                        <span class="float-right price">XX.xx</span>
+                        <span class="float-right price">13.95</span>
                     </div>
-                    <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
+                    <p class="text-capitalize">crab, onion, carrot, lemon juice, chives, spices, heavy cream</p>
                 </div>
             </div>
             <div class="col-md-6 pl-md-5">
                 <div class="menu-item">
                     <div class="menu-item-header">
-                        <h3 class="d-inline-block">Soup 4 
+                        <h3 class="d-inline-block">Muligatawny 
                         </h3>
-                        <span class="float-right price">XX.xx</span>
+                        <span class="float-right price">11.95</span>
                     </div>
-                    <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
+                    <p class="text-capitalize">chicken, rice, apple, onion, celery, carrot, herbs, spices, heavy cream</p>
                 </div>
                 <div class="menu-item">
                     <div class="menu-item-header">
-                        <h3 class="d-inline-block">Soup 5 
+                    <h3 class="d-inline-block">Turkey Chili 
                         </h3>
-                        <span class="float-right price">XX.xx</span>
+                        <span class="float-right price">11.95</span>
                     </div>
-                    <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
+                    <p class="text-capitalize">turkey, red bell pepper, onion, garlic, tomato, cannellini beans, spices</p>
                 </div>
             </div> 
         </div>
@@ -88,29 +87,31 @@ include('includes/header.php');
             <div class="col-md-6 pr-md-5">
                 <div class="menu-item">
                     <div class="menu-item-header">
-                        <h3 class="d-inline-block">Soup 1 
-                        </h3>
-                        <span class="float-right price">XX.xx</span>
+                    <h3 class="d-inline-block">Gazpacho 
+                        <sup>*Daily Special</sup>
+                    </h3>
+                    <span class="float-right price">7.95</span>
                     </div>
-                    <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
+                    <p class="text-capitalize">Tomatoes, cucumber, red bell pepper, onion, jalapeño, garlic, spices</p>
+                    <p class="text-capitalize">includes bread</p>
                 </div>
                 <div class="menu-item">
                     <div class="menu-item-header">
-                        <h3 class="d-inline-block">Soup 2 
+                        <h3 class="d-inline-block">Cold Cucumber 
                         </h3>
-                        <span class="float-right price">XX.xx</span>
+                        <span class="float-right price">8.95</span>
                     </div>
-                    <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
+                    <p class="text-capitalize">Cucumber, greek yogurt, shallots, lemon, fresh herbs</p>
                 </div>
             </div>
             <div class="col-md-6 pl-md-5">
                 <div class="menu-item">
                     <div class="menu-item-header">
-                        <h3 class="d-inline-block">Soup 3 
+                        <h3 class="d-inline-block">Corn Chowder 
                         </h3>
-                        <span class="float-right price">XX.xx</span>
+                        <span class="float-right price">8.95</span>
                     </div>
-                    <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
+                    <p>Corn, potatoes, heavy cream, onion, garlic, fresh herbs, spices</p>
                 </div>
             </div> 
         </div>
@@ -120,24 +121,22 @@ include('includes/header.php');
     <div class="container py-5">
         <h2 class="mb-4 mb-md-5">Extras</h2>
         <div class="row">    
-            <div class="col-md-6 pr-5">
+            <div class="col-md-6 pr-md-5">
                 <div class="menu-item">
                     <div class="menu-item-header">
-                        <h3 class="d-inline-block">Bread Roll 
+                        <h3 class="d-inline-block">Fresh Bread Roll 
                         </h3>
-                        <span class="float-right price">XX.xx</span>
+                        <span class="float-right price">1.95</span>
                     </div>
-                    <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
                 </div>
             </div>
             <div class="col-md-6 pl-md-5">
                 <div class="menu-item">
                     <div class="menu-item-header">
-                        <h3 class="d-inline-block">Bread Bowl
+                        <h3 class="d-inline-block">Fresh Bread Bowl
                         </h3>
-                        <span class="float-right price">XX.xx</span>
+                        <span class="float-right price">4.95</span>
                     </div>
-                    <p>ingredient, ingredient, ingredient, ingredient, ingredient</p>
                 </div>
             </div> 
         </div>

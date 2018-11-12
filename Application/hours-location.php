@@ -13,7 +13,7 @@ include('includes/header.php');
 <div class="jumbotron loc-jumbotron mb-0">
     <div class="container p-0">
         <div class="row mx-0">
-            <div class="col text-center">
+            <div class="col text-center text-white">
                 <h1>Hours &amp; Location</h1>
             </div>
         </div>
@@ -25,8 +25,8 @@ include('includes/header.php');
         <div class="row">    
             <div class="col-md-4">
                 <h3>Hours</h3>
-                <p>Monday-Friday: XX:XX - XX:XX</p>
-                <p>Saturday: XX:XX - XX:XX</p>
+                <p>Monday-Friday: 10:00AM–9:00PM</p>
+                <p>Saturday: 11:00AM–10:00PM</p>
                 <p>Sunday: Closed</p>
             </div>
             <div class="col-md-4">

@@ -126,42 +126,6 @@ nav a, nav a:focus, nav a:hover {
     font-weight: 500;
 }
 
-.mobile-overlay, .overlay {
-    padding: 5rem 1rem;
-    background-color: rgba(0,0,0,0.5);
-}
-
-.overlay  {
-    background-color: rgba(0,0,0,0.6);
-}
-
-.jumbotron {
-    border-radius: 0;
-    background-color: #0e0e10; /* Used if the image is unavailable */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center left;
-    padding: 5rem 1rem;
-}
-
-.home-jumbotron {
-    background-image: url(../assets/artiom-vallat-688963-unsplash-fade.jpg);
-    color: #fff;
-}
-
-.jumbotron h1, .jumbotron p{
-    text-shadow: 0px 0px 20px black;
-}
-
-.menu-jumbotron {
-    background-image: url(../assets/image-from-rawpixel-id-448298.jpg);
-    color: #fff;
-}
-
-.loc-jumbotron {
-    background-image: url(https://via.placeholder.com/1500/ccccff);
-}
-
 .navbar-nav .nav-item {
     font-size: 1.5rem;
 }
@@ -223,6 +187,10 @@ a.page-nav-item:hover, a.page-nav-item:active, a.page-nav-item:focus {
     border: none!important;
 }
 
+.bg-dark {
+    background-color: #080B0D!important;
+}
+
 footer {
     font-size: .85rem;
     background-color: #080B0D;
@@ -242,12 +210,51 @@ footer a:hover, footer a:active, footer a:focus {
     color: #d88c06!important;
 }
 
+.mobile-overlay, .overlay {
+    padding: 5rem 1rem;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.overlay  {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.jumbotron {
+    border-radius: 0;
+    background-color: #0e0e10; /* Used if the image is unavailable */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    padding: 5rem 1rem;
+}
+
+.jumbotron.loc-jumbotron {
+    padding: 7rem 1rem;
+}
+
+.home-jumbotron {
+    background-image: url(../assets/artiom-vallat-688963-unsplash-fade.jpg);
+    color: #fff;
+}
+
+.jumbotron h1, .jumbotron p{
+    text-shadow: 0px 0px 20px #080B0D;
+}
+
+.menu-jumbotron {
+    background-image: url(../assets/image-from-rawpixel-id-448298-edit.jpg);
+    color: #fff;
+}
+
+.loc-jumbotron {
+    background-image: url(../assets/chef-cooking-dinner-66639-fade.jpg);
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     .jumbotron {
         background-size: 50rem;
     }
-
  }
 
  /* Medium devices (tablets, 768px and up) */
@@ -264,13 +271,22 @@ footer a:hover, footer a:active, footer a:focus {
         background-size: 60rem;
     }
 
+    .jumbotron.loc-jumbotron {
+        background-size: 70rem;
+    }
+
     .mobile-overlay {
         background-color: rgba(0,0,0,0.0);
     }
 
-    .mobile-overlay, .overlay {
+    .mobile-overlay, .overlay, .jumbotron.loc-jumbotron {
         padding: 6rem 1rem;
     }
+
+    .jumbotron.loc-jumbotron {
+        padding: 10rem 1rem;
+    }
+
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -283,15 +299,24 @@ footer a:hover, footer a:active, footer a:focus {
         background-size: 80rem;
     }
 
-    .mobile-overlay, .overlay {
+    .jumbotron.loc-jumbotron {
+        background-size: 90rem;
+    }
+
+    .mobile-overlay, .overlay{
         padding: 8rem 1rem;
     }
+
  }
 
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .jumbotron.home-jumbotron {
         background-position: 200px center;
+    }
+
+    .jumbotron.loc-jumbotron {
+        background-size: 110rem;
     }
  } 
 

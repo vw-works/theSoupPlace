@@ -14,8 +14,8 @@ include('includes/header.php');
     <div class="mobile-overlay">
         <div class="container p-0">
             <div class="col-md-6">
-                <h1>Daily Special | Manhattan Clam Chowder</h1>
-                <p class="text-capitalize font-weight-bold">clams, bacon, onion, celery, green pepper, carrot, potato, tomato, herbs</p>
+                <h1>Daily Special | Gazpacho</h1>
+                <p class="text-capitalize font-weight-bold">Tomatoes, cucumber, red bell pepper, onion, jalapeño, garlic, spices</p>
                 <p><a class="btn btn-primary btn-main btn-lg" href="menu.php" role="button">See Entire Menu &raquo;</a></p>
             </div>
         </div>
