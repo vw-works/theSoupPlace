@@ -22,7 +22,7 @@ include('includes/header.php');
     </div>
 </div>
 
-<div  class="bg-white">
+<div class="bg-white">
     <div class="container ">
         <div class="row">
             <div id="procedure" class="col-md-6 pt-5 pb-4 py-md-5 ">

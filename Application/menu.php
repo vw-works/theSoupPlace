@@ -111,7 +111,7 @@ include('includes/header.php');
                         </h3>
                         <span class="float-right price">8.95</span>
                     </div>
-                    <p>Corn, potatoes, heavy cream, onion, garlic, fresh herbs, spices</p>
+                    <p class="text-capitalize">Corn, potatoes, heavy cream, onion, garlic, fresh herbs, spices</p>
                 </div>
             </div> 
         </div>
