@@ -47,8 +47,23 @@ Corn, potatoes, heavy cream, onion, garlic, fresh herbs, spices
 wild mushroom
 Porcine mushrooms, olive oil, celery, chopped parsley
 
+
+----
+No soup for you!
+Uh oh, something went wrong. Are you sure you read the rules?
+Better look them up again.
+Read Here
+
 --------------
+404 page - done
 
 To-do
+
+publish to hosting server
 back to top button
-404 page
+hotjar
+compress images
+testing schedule
+figure out how to get 404 page rerouted to custom
+seo?
+
