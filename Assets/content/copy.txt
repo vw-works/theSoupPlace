@@ -56,10 +56,9 @@ Read Here
 
 --------------
 404 page - done
+publish to hosting server -done
 
 To-do
-
-publish to hosting server
 back to top button
 hotjar
 compress images
@@ -67,3 +66,21 @@ testing schedule
 figure out how to get 404 page rerouted to custom
 seo?
 
+
+Confirmed fonts to use
+Confirmed logo
+Decided on colors
+Finished gathering content - soups and ingredients
+Figured out how to add google maps to website
+Integrated confirmed design language into site (fonts, colors, images, etc)
+Created a custom 404 page
+
+Compress images
+Figure out how to get 404 page rerouted to custom page
+Minify css
+Figure out how to add Hotjar to site
+Figure out testing schedule
+SEO?
+
+
+“back to top” button - at this point a nice to have
