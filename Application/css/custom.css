@@ -251,6 +251,11 @@ footer a:hover, footer a:active, footer a:focus {
     background-image: url(../assets/chef-cooking-dinner-66639-fade.jpg);
 }
 
+.embed-map {
+    border: 0!important;
+    border-width: 0!important;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     .jumbotron {
