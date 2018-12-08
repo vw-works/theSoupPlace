@@ -3,9 +3,9 @@
     src: url(../assets/fonts/ServiceStation-Rough.woff);
 }
 
-a {
-    color: ff8e00;
-}
+/* a {
+    color: #ff8e00;
+} */
 
 body p, body li {
     font-family: 'Work Sans', sans-serif;
