@@ -7,9 +7,9 @@
             
             <div class="col-md-3">
               <span>
-                  (011) 4964-2888</br>
-                  Av. Independencia 880 </br>
-                  C1099AAV CABA</br>
+                  (011) 4964-2888<br>
+                  Av. Independencia 880 <br>
+                  C1099AAV CABA<br>
                   Argentina
               </span>
             </div>
@@ -40,7 +40,7 @@
                     ?> Design/Development by Vila Wong </span>
             </div>
           </div>
- 
+        </div>
         
       </footer>
   

@@ -84,5 +84,5 @@
       </nav>
       <!-- END NAVIGATION -->
   
-      <main role="main">
+      <main>
   <!-- BEGIN CHANGEABLE CONTENT. -->
