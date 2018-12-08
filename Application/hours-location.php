@@ -51,7 +51,7 @@ include('includes/header.php');
     <div class="container pb-5">
         <h2 class="mb-4 mb-md-5">Map</h2>
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item embed-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.4642365256923!2d-58.380641684792586!3d-34.61770696574543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c3a81a8c0b%3A0xcb931c200486507e!2sAv.+Independencia+880%2C+C1099AAV+CABA%2C+Argentina!5e0!3m2!1sen!2sus!4v1541381666953" width="800" height="600" allowfullscreen>
+            <iframe class="embed-responsive-item embed-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.4642365256923!2d-58.380641684792586!3d-34.61770696574543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c3a81a8c0b%3A0xcb931c200486507e!2sAv.+Independencia+880%2C+C1099AAV+CABA%2C+Argentina!5e0!3m2!1sen!2sus!4v1541381666953" width="800" height="600" allowfullscreen>
             </iframe>
         </div> 
     </div>
