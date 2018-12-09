@@ -62,7 +62,7 @@
           </button>
     
           <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ml-auto nav-masthead text-right">
+            <ul class="navbar-nav ml-auto nav-masthead text-center text-md-right">
               <li class="nav-item">
                 <a class="nav-link px-0 mx-md-3" href="index.php">Home</a>
               </li>
@@ -71,7 +71,7 @@
                 <a class="nav-link dropdown-toggle px-0 mx-md-3" href="#" id="dropdownSubMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Menu
                 </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownSubMenu">
+                <div class="dropdown-menu text-center text-md-left" aria-labelledby="dropdownSubMenu">
                   <a class="dropdown-item" href="menu.php">All Soups</a>
                   <a class="dropdown-item" href="menu.php#veg">Vegetarian Options</a>
                   <a class="dropdown-item" href="menu.php#extra">Extras</a>
