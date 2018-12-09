@@ -46,15 +46,17 @@
   </head>
 
   <body>
-
       <!-- NAVIGATION -->
       <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white nav-masthead shadow-sm">
+        <p class="sr-only" ><a href="#content"><img src="https://via.placeholder.com/0" width="0" height="0" border="0" alt="skip to content" /></a></p>
         <div class="container">
-          <h3 class="my-0 mt-2 my-md-1">
+          <div class="my-0 mt-2 my-md-1">
             <a class="masthead-brand mt-2" href="index.php">
               The Soup Place
+              <span class="sr-only">(Logo)</span>
             </a>
-          </h3>
+            <p class="sr-only"><a href="#content"><img src="https://via.placeholder.com/0" width="0" height="0" border="0" alt="skip to content" /></a></p>
+          </div>
           <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -62,12 +64,14 @@
           <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ml-auto nav-masthead text-right">
               <li class="nav-item">
-                <a class="nav-link px-0 mx-md-3" href="index.php">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link px-0 mx-md-3" href="index.php">Home</a>
               </li>
               
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle px-0 mx-md-3" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="nav-link dropdown-toggle px-0 mx-md-3" href="#" id="dropdownSubMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Menu
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownSubMenu">
                   <a class="dropdown-item" href="menu.php">All Soups</a>
                   <a class="dropdown-item" href="menu.php#veg">Vegetarian Options</a>
                   <a class="dropdown-item" href="menu.php#extra">Extras</a>
@@ -75,7 +79,10 @@
               </li>
 
               <li class="nav-item">
-                  <a class="nav-link px-0 ml-md-3" href="hours-location.php">Hours &amp; Location</a>
+                  <a class="nav-link px-0 ml-md-3" href="hours-location.php">
+                    Hours &amp; Location
+                    <span class="sr-only">(Includes Map and Contact Information)</span>
+                  </a>
                 </li>
             </ul>
           

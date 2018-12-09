@@ -22,23 +22,28 @@ include('includes/header.php');
 
 <div id="info" class="bg-light">
     <div class="container pt-5 pb-3">
-        <div class="row">    
+        <div class="row">
+                <a  class="sr-only" name="content" alt="Main content starts here"></a>
             <div class="col-md-4">
-                <h3>Hours</h3>
+                <label class="content-title">Hours</label>
                 <p>Monday-Friday: 10:00AM–9:00PM</p>
                 <p>Saturday: 11:00AM–10:00PM</p>
                 <p>Sunday: Closed</p>
             </div>
             <div class="col-md-4">
-                <h3>Address</h3>
+                <label class="content-title">Address</label>
                 <address>
+                    <span class="sr-only">
+                            (Entire address: Av. Independencia 880
+                            C1099AAV CABA
+                            Argentina)</span>
                     Av. Independencia 880 <br>
                     C1099AAV CABA<br>
                     Argentina
                 </address>
             </div>
             <div class="col-md-4">
-                <h3>Contact Information</h3>
+                <label class="content-title">Contact Information</label>
                 <p>Phone: (011) 4964-2888</p>
                 <p>Email: soupnazi@fakeemail.com</p>
             </div>
@@ -47,6 +52,7 @@ include('includes/header.php');
     </div>
 </div>
 
+<span class="sr-only">(Google embedded map - Skip this section!)</span>
 <div id="map" class="bg-light">
     <div class="container pb-5">
         <h2 class="mb-4 mb-md-5">Map</h2>

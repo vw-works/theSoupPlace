@@ -6,16 +6,22 @@
             <!-- CONTACT INFORMATION -->
             
             <div class="col-md-3">
+              <span class="sr-only">(Phone Number and Address)</span>
               <span>
                   (011) 4964-2888<br>
                   Av. Independencia 880 <br>
                   C1099AAV CABA<br>
                   Argentina
               </span>
+              <span class="sr-only">
+                  (Entire address: Av. Independencia 880
+                  C1099AAV CABA
+                  Argentina)</span>
             </div>
 
             <!-- SITE MAP SECTION -->
             <div class="col-md-3 mt-3 mt-md-0">
+              <span class="sr-only">(Sitemap)</span>
               <ul>
                   <li><a href="index.php#procedure" class="text-white" >Procedure &amp; Rules</a></li>
                   <li><a href="menu.php" class="text-white" >Menu</a></li>
@@ -26,7 +32,7 @@
           </div>
           <!-- Disclaimer -->
           <div class="row mt-4 copyright">
-            <div class="col">
+            <div class="col"> <span class="sr-only">(Disclaimer)</span>
               <span class="d-block">Any content related to the Soup Nazi is the property of the TV series, <a class="text-white" href="http://www.seinfeldscripts.com/TheSoupNazi.htm" target="_blank" title="Go to Seinfeld Soup Nazi transcript page">Seinfeld</a>. Please don't sue me.</span>
               <span>&copy;
                     <?php

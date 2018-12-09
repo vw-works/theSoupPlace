@@ -256,6 +256,35 @@ footer a:hover, footer a:active, footer a:focus {
     border-width: 0!important;
 }
 
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    color: inherit;
+    display: block;
+}
+
+.section-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    color: inherit;
+    display: block;
+}
+
+.content-title {
+    font-size: 1.75rem!important;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: .5rem;
+    color: inherit;
+    display: inline-block;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     .jumbotron {
