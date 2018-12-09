@@ -30,7 +30,7 @@ include('includes/header.php');
 
 <div id="all" class="bg-white">
     <div class="container py-5">
-        <a  class="sr-only" name="content" alt="Main content starts here"></a>
+        <a id="content" class="sr-only" title="Main content starts here"></a>
         <h2 class="mb-4 mb-md-5">Soups</h2>
         <div class="row">    
             <div class="col-md-6 pr-md-5">

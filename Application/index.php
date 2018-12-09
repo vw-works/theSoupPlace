@@ -14,11 +14,11 @@ include('includes/header.php');
     <div class="mobile-overlay">
         <div class="container p-0">
             <div class="col-md-6">
-                <a  class="sr-only" name="content" alt="Main content starts here"></a>
+                <a id="content" class="sr-only" title="Main content starts here"></a>
                 <h1>Daily Special | Gazpacho</h1>
                 <span class="sr-only">(Ingredients in daily special)</span>
                 <p class="text-capitalize font-weight-bold">Tomatoes, cucumber, red bell pepper, onion, jalapeño, garlic, spices</p>
-                <p><a class="btn btn-primary btn-main btn-lg" href="menu.php" role="button" alt="Go to menu page">See Entire Menu &raquo;</a></p>
+                <p><a class="btn btn-primary btn-main btn-lg" href="menu.php" role="button" title="Go to menu page">See Entire Menu &raquo;</a></p>
             </div>
         </div>
     </div>

@@ -23,7 +23,7 @@ include('includes/header.php');
 <div id="info" class="bg-light">
     <div class="container pt-5 pb-3">
         <div class="row">
-                <a  class="sr-only" name="content" alt="Main content starts here"></a>
+            <a id="content" class="sr-only" title="Main content starts here"></a>
             <div class="col-md-4">
                 <label class="content-title">Hours</label>
                 <p>Monday-Friday: 10:00AM–9:00PM</p>

@@ -29,7 +29,7 @@
 
     <link href="css/custom.css" rel="stylesheet">
     <!-- Custom fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700%7CWork+Sans" rel="stylesheet">
 
     <!-- Hotjar Tracking Code for http://soupplace.altervista.org -->
     <script>
@@ -48,14 +48,14 @@
   <body>
       <!-- NAVIGATION -->
       <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white nav-masthead shadow-sm">
-        <p class="sr-only" ><a href="#content"><img src="https://via.placeholder.com/0" width="0" height="0" border="0" alt="skip to content" /></a></p>
+        <p class="sr-only" ><a href="#content"><img src="https://via.placeholder.com/0" width="0" height="0" title="skip to content" alt="skip to content" class="border-0"/></a></p>
         <div class="container">
           <div class="my-0 mt-2 my-md-1">
             <a class="masthead-brand mt-2" href="index.php">
               The Soup Place
               <span class="sr-only">(Logo)</span>
             </a>
-            <p class="sr-only"><a href="#content"><img src="https://via.placeholder.com/0" width="0" height="0" border="0" alt="skip to content" /></a></p>
+            <p class="sr-only" ><a href="#content"><img src="https://via.placeholder.com/0" width="0" height="0" title="skip to content" alt="skip to content" class="border-0"/></a></p>
           </div>
           <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
